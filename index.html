@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <h1>Welcome to the Lake Mohawk Water Polo Extravaganza!</h1>
+    <div>
+        <p>Let's play some water polo! Lake Mohawk is an outdoor 50 meter pool. We are hosting an all deep scrimmaging, friendly to all levels, and we'd love to have you come out and join us. We are also going rafting the next day. This is an adult only event (18+).
+            For additional questions about the event please <a href="mailto: njasbon@gmail.com" target="_blank">email Nico</a>.
+        </p>
+        <div>
+            <h3> Sign up below</h3>
+            <div id="eventbrite-widget-container-116653458635"></div>
+        </div>
+        <div>
+            <h2>Cost</h2>
+            <ul>
+                <li>Pay early and get 25% off!</li>
+                <li>Pre-order: $30 pre-order (before September 1st)</li>
+                <li>$40 September 1st and after</li>
+            </ul>
+            <h3>To pay, please venmo @njasbon directly</h3>
+        </div>
+        <div>
+            <h2>American Water Polo Insurance</h2>
+            <p>Players also must be insured through American water polo. 
+                Inexpensive insurance day passes will be available for purchase at americanwaterpolo.org. COMING SOON!
+            </p>
+        </div>
+        <div>
+            <h2>Covid Guidlines</h2>
+            <ul>Here are the rules as per the CDC and our water polo insurance carrier AWP:
+                <li>Indoors, including bathrooms, you must socially distance or wear a mask or both. You are encouraged to social distance OR wear a mask on deck.
+                </li>
+                <li>You may not wear a mask in the water. You must follow lifeguard instructions.
+                </li>
+                <li>Players may not share water bottles or whistles. Extra water bottles and whistles for volunteer officials will be made available, but it's recommended to bring your own water bottles.
+                </li>
+                <li>If you experience symptoms leading up to the event you should consult a physician, and you may not attend the event.
+                </li>
+                <li>Leading up to the event we also ask that you avoid high risk behavior. New Jersey and New York are currently doing well, but that can change. Attending the event is an assumption of risk. Please consult government and public health resources to stay informed.
+                </li>
+                <h4>To Read about the CDC Guidlines please <a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html" target="_blank">click here.</a></h4>
+            </ul>
+        </div>
+    </div>
+
+    <div class="event-schedule">
+        <div>
+            <h2>Event Details</h2>
+            <ul><h3>Saturday, September 19</h3>
+                <li>9:30AM warmup</li>
+                <li>10:00AM scrimmaging</li>
+                <li>12:00PM lunhc</li>
+                <li>1:00PM Women's Game</li>
+                <li>2:00PM New Rules Round Robin Games</li>
+                <li>4:00PM Cleanup</li>
+            </ul>
+            <ul><h3>Sunday, September 20</h3>
+                <li>10:30AM Rafting at Delaware Water Gap ($50 per person)</li>
+                <li>To book on your own <a href="https://www.watergapadventure.com/" target="_blank">click here.</a></li>
+            </ul>
+        </div>
+        <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.987226456013!2d-74.68579758485797!3d41.003652779301355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c373d6f6cde637%3A0x46b656743c231a3b!2sLake%20Mohawk%20Pool!5e0!3m2!1sen!2sus!4v1598410554428!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+</body>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '116653458635',
+        iframeContainerId: 'eventbrite-widget-container-116653458635',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
+</html>
