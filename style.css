@@ -20,10 +20,16 @@ body{
     100%{background-position:0% 50%}
 }
 
+@font-face{
+    font-family: orangeJuice;
+    src: url(orange\ juice\ 2.0.ttf)
+}
+
 h1{
     text-align: center;
-    letter-spacing: .5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-family: orangeJuice;
+    font-size: 4rem;
 }
 .intro-eventbrite{
     margin: 3px;
@@ -82,6 +88,32 @@ h1{
 .my-card.my-covid-card{
     margin: 7px;
     width: 75vw;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    text-align: center;
+}
+
+.foot-links{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius:50%;
+    background-color:#6d758744;
+    box-shadow:7px 7px 15px rgba(55,84,170,0.15),-7px -7px 20px #fff,inset 0px 0px 4px rgba(255,255,255,0.2),inset 7px 7px 15px rgba(55,84,170,0),inset -7px -7px 20px rgba(255,255,255,0),0px 0px 4px rgba(255,255,255,0) !important;
+}
+.my-signature{
+    height: 5px;
+    display:flex;
+    justify-content: center;
 }
 
 
