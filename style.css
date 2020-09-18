@@ -136,12 +136,20 @@ body ul{
     width:75vw;
     text-align: center;
 }
-.schedule-video{
+.teams-video{
     display:flex;
-    justify-content: space-around;
-    text-align: left;
+    justify-content: center;
 }
-
+#doc-title{
+    display: none;
+}
+.teams{
+    width: 507px;
+    height: 278px;
+}
+.game-schedule {
+    height: 273px;
+}
 .my-card.my-covid-card{
     margin: 7px;
     width: 75vw;
@@ -208,6 +216,9 @@ footer{
         list-style-position:inside;
         margin:0;
         padding:0; }
+    .teams{
+        width:unset;
+    }
 
 }
 
